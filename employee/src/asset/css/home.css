@@ -1,0 +1,23 @@
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    width: 300px;
+    height: max-content;
+    margin: 5% auto auto auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 20px 13px 0px #00000024;
+    gap: 30px;
+}
+
+.buttonContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.image {
+    font-size: 150px !important;
+}
