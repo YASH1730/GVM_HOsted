@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const URL = 'http://localhost:8000/api'
+// const URL = 'http://localhost:8000/api'
+const URL = 'https://jolly-overshirt-bull.cyclic.app/api'
 
 export const addEmployee = async (data) => {return await axios.post(`${URL}/addEmployee`,data)};
 
